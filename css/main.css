@@ -1,0 +1,218 @@
+body{
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    font-family: 'Open Sans','helvetica',arial,sans-serif;
+    font-weight: 300;
+    color: #62686f;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-weight: 300;
+}
+.container{
+    width: 960px;
+    margin: 0 auto;
+    margin-top: 125px;
+}
+.main-header{
+    background-image: url("../img/banner.jpg");
+    text-align: center;
+    font-weight: 300;
+    font-size: 25px;
+    font-family: 'Open Sans','helvetica',arial,sans-serif;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+    padding: 1px;
+}
+.main-header__avatar{
+    display: block;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+    margin-top: -60px;
+    border: 3px solid white;/*头像的边框*/
+    border-radius: 999px;/* 头像圆 */
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.2);
+}
+.main-header_title{
+    color: white;
+    padding: 20px;
+    text-shadow: 0 1px rgba(0,0,0,0.3);
+}
+.main-nav{
+     text-align: center;
+     background-color: #333;
+ }
+.main-nav ul{
+    background: #333;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.main-nav ul li{
+    display: inline-block;
+    margin:  15px 10px;;
+}
+.main-nav ul li a {
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-nav ul li a:hover{
+    text-decoration: underline;
+}
+.info-section header{
+    text-align: center;
+}
+.info-section header h2:after{
+    content: "";
+    display: table;
+    width: 15%;
+    margin: 0 auto;
+    margin-top:10px;
+    text-align: center;
+    border: 1px solid black;
+}
+.whatido{
+    background-color: #fff;
+    padding: 1px;
+}
+.whatido__skill--code {
+    background-image: url(../img/skill-code.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 100px;
+}
+.whatido__skill--design {
+    background-image: url(../img/skill-design.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 100px;
+}
+.whatido__skill--product {
+    background-image: url(../img/skill-product.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    padding-top: 100px;
+}
+.whatido__skill-list{
+    overflow: hidden;
+    list-style: none;
+    margin-top: 60px;
+}
+.whatido__skill{
+    float: left;
+}
+.whatido__skill--code{
+    width: 33.3%;
+    text-align: center;
+}
+.whatido__skill--design{
+    width:33.3%;
+    text-align: center;
+}
+.whatido__skill--product{
+    width: 33.3%;
+    text-align: center;
+}
+.info-section{
+    padding: 30px 60px;
+}
+.info-section header h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.info-section__description {
+    font-style: italic;
+}
+/*education-experience模块的CSS*/
+.education-experience{
+    background-color: #fff;
+}
+.education-experience__list{
+    box-sizing:border-box;
+}
+.education-experience__list li img{
+    float: left;
+    width: 180px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.education-experience__list li{
+    list-style: none;
+    display: block;
+    overflow: hidden;
+}
+.education-experience__list__description p{
+    overflow: hidden;
+}
+.education-experience ul li h3{
+    font-size: x-large;
+}
+.education-experience__title {
+    font-weight: bold;
+}
+section:after{
+    content: "";
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+    margin-top:40px;
+    text-align: center;
+    border: 1px solid gray;
+}
+/*PHOTO模块的CSS*/
+/*.photos{
+    background-color: white;
+    box-sizing:border-box;
+}
+.photos__list{
+    list-style: none;
+    padding: 10px;
+    margin: 0px;
+
+    width: 100%;
+}
+.photos__list li{
+
+    float: left;
+    padding: 10px;
+    width: 185px;
+}
+.photos__list li img{
+    width: 100%;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}*/
+html {
+    box-sizing: border-box; /* 全局实现border-box */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.photos{
+    background-color: #fff;
+}
+.photos__list {
+    overflow: hidden;
+}
+.photos__list img {
+    padding: 10px;
+    width: 100%;
+}
+.photos__list li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
