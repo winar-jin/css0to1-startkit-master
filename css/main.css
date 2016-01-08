@@ -47,6 +47,8 @@ h1, h2, h3, h4, h5, h6 {
 .main-nav ul{
     background: #333;
     list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 .main-nav ul li{
     display: inline-block;
