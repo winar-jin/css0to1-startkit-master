@@ -235,7 +235,6 @@ html {
     width: 100%;
     height: 35px;
     background: #ffd524;
-
     cursor: pointer;
     text-shadow: 0 1px 1px rgba(0,0,0,0.2);
     color: #fff;
@@ -248,10 +247,6 @@ html {
     width:25%;
     float: left;
     text-align: center;
-}
-
-.contact{
-
 }
 
 .contact form{
@@ -277,4 +272,75 @@ html {
     position: absolute;
     right: 100%;
     width: 100px;
+}
+@media only screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .main-nav ul li {
+        display: block;
+    }
+    .info-section  {
+        padding: 10px;
+    }
+    li.whatido__skill {
+        margin-bottom: 40px;
+    }
+    .photos__list li{
+        width: 100%;
+        display: block;
+    }
+    .get-in-touch__list li {
+        padding: 0;
+        width: 50%;
+    }
+    .whatido__skill-list {
+        margin: 0;
+        padding: 1px;
+    }
+    .whatido__skill {
+        width: 100%;
+        display: block;
+    }
+
+    .education-experience__list {
+        padding: 1px;
+        margin: 0;
+    }
+    .education-experience__list img {
+        width: 180px;
+        margin: 0 auto;
+        display: block;
+        float: none;
+    }
+
+    .education-experience span {
+        display: block;
+    }
+
+    .photos__list {
+        padding: 0;
+        margin: 0;
+    }
+
+    .get-in-touch__list {
+        margin: 0;
+        padding: 1px;
+    }
+
+    .contact label {
+        position: static;
+    }
+
+    .contact form {
+        width: 100%;
+    }
+    .contact  {
+        width: 100%;
+    }
+
 }
