@@ -1,4 +1,4 @@
-# sike.io CSS 0 to 1 Starter Kit
+# CSS 0 to 1 Starter Kit
 
 To do the exercises, just edit the files with your favourite editor.
 
