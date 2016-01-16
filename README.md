@@ -9,7 +9,6 @@ To install BrowserSync:
 ```
 npm install browser-sync@2.7.1
 ```
-
 To run the live-edit web server:
 
 ```
