@@ -1,6 +1,6 @@
 # CSS 0 to 1 Starter Kit
 
-To do the exercises, just edit the files with your favourite editor.
+To do the exercises, Just edit the files with your favourite editor.
 
 If you want a live-edit experience, install [BrowserSync](http://www.browsersync.io/).
 
